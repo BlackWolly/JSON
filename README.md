@@ -29,10 +29,10 @@
 		В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
 		cat >> references.json
 		{
-		        "Film": "Star Wars",
+		       "Film": "Star Wars",
  		       "Serial": "tar Treck",
  		       "Food": "Borsch",
-		        "Season": "Summer",
+		       "Season": "Summer",
  		       "Future country": "Canada"
 		}
 		Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
@@ -41,8 +41,8 @@
 		        "Skill": "Bash",
 		        "Skill": "Git",
  		        "Skill": "Postman",
-      		        "Skill": "SQL",
-       		        "Skill": "Manual testing"
+			"Skill": "SQL",
+			"Skill": "Manual testing"
 		}
 		Отправить сразу 2 файла на внешний репозиторий.
 		git add preferences.json skills.json ; git commit -m "add two more files"
